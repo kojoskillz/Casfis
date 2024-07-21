@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .nav1{
@@ -235,6 +235,17 @@
     place-content: center;
     gap: 16px;
 
+}
+
+.btn0{
+    width: 20rem;
+    font-size: 20px;
+    padding: 20px;
+    background-color: #ffb700;
+    color: black;
+    border: none;
+    border-radius: 9px;
+    font-family: 'Righteous', cursive;
 }
 
 .btn1{
@@ -686,6 +697,7 @@
 }
 
 .img14{
+    object-fit: contain;
     position: absolute;
     width: 60rem;
     height: 45rem;
@@ -1399,16 +1411,16 @@ footer{
 }
 
 /* mobile responsiveness */
-@media screen and (max-width:420px) {
+@media screen and (max-width:380px) {
     *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
 
    body{
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
    }
 
     .nav_links{
@@ -1579,5 +1591,70 @@ footer{
     .price{
         margin-left: 3px
     }
+    
 
+    .casfis_flex{
+        display: grid;
+        margin-left: -5rem;
+    }
+
+    .casfis-textX{
+        font-size: 3rem;
+        
+    }
+    .casfis-p {
+        font-size: 16px;
+        display: block;
+        
+    }
+
+    .img14{
+        display: block;
+        object-fit: contain;
+        position:absolute;
+        margin-left: -25rem;
+        margin-top: 45rem;
+    }
+
+
+    .img13{
+        position: absolute;
+        margin-top: 20rem;
+        margin-left: -20rem;
+    }
+
+    .btn1{
+        width: 10rem;
+        font-size:20px;
+        margin-bottom: 4rem;
+    }
+
+    .casfis_flex{
+        margin-bottom: 30rem;
+    }
+
+    .containerU{
+        width: 20rem;
+        height: 5rem;
+        margin-left: 4px;
+       
+    }
+
+    .containerU_text{
+        font-size: 22px;
+    }
+
+    .express-delivery,.vegetables,.high-quality,.hours_support{
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+   
+    .reservation_text{
+        position: absolute;
+       text-align: center;
+       font-size: 60px;
+       margin-left: -5.5rem;
+    }
+
+    
 }
