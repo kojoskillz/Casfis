@@ -315,6 +315,7 @@
    color: #ffb700;
    margin-top: 7rem;
    font-family: "Righteous",cursive;
+   overflow-y: hidden;
 }
 
 .about_txt{
@@ -1383,7 +1384,6 @@ input{
         flex-direction: column;
     }
 
-     
   
 }
 
@@ -1396,4 +1396,161 @@ footer{
     background-repeat: no-repeat;
     background-position: center;
     padding: 10rem;
+}
+
+/* mobile responsiveness */
+@media screen and (max-width:420px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /* overflow-x: hidden; */
+    }
+
+    .nav_links{
+        display: none;
+    }
+
+    .casfis-logo{
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .nav1{
+        display: flex;
+        padding: -5px;
+    }
+
+    .nav1_texts{
+        font-size: 8px;
+    }
+
+    .clock{
+        width: 10px;
+    }
+    
+    .email{
+        width: 10px;
+    }
+    
+    .location{
+        width: 10px;
+    }
+    
+    .cooking{
+        margin-left: -80rem;
+    }
+
+    .text1{
+        font-size: 70px;
+    }
+
+    .hero_image{
+        height: 60rem;
+    }
+
+    .btn1{
+       width: 17rem;
+       height: 4rem;
+       font-size:12px;
+
+    }
+
+    .btn2{
+       width: 17rem;
+       height: 4rem;
+       font-size:12px;
+
+    }
+
+    .a_flex{
+        padding-bottom: 37rem;
+}
+    
+    .about_txt{
+        font-size: 7rem;
+    }
+
+    .about_p{
+        font-size: 25px;
+        margin-left: 2rem;
+        
+    }
+
+    .about_img{
+        position: absolute;
+        margin-top: 62rem;
+        margin-left: 8rem;
+    }
+
+    .imgy{
+        height: 20rem;
+        width: 18rem;
+    }
+ 
+    .imgx{
+        z-index: -10;
+        margin-top: 5rem;
+        height: 20rem;
+        width: 17rem;
+    }
+
+    .main_container{
+        display: grid;
+        margin-bottom: -15rem;
+    }
+
+    .container1{
+        margin: auto;
+    }
+ 
+    .img7{
+       margin-top: 2rem;
+       margin-bottom: 2rem;
+}
+
+    .container2{
+        object-fit: contain;
+        margin: auto;
+       
+    }
+ 
+    .tex5{
+       padding-bottom: 10rem;
+    }
+
+    .menu_text1{
+        margin-top: -10rem;
+        font-size: 10rem;
+    }
+    .menu_text{
+        margin-top: -10rem;
+        font-size: 7rem;
+   
+    }
+
+    .containerV{
+         margin-left: -10rem;
+         
+    }
+
+    .menu_flex{
+        flex-direction: column;
+        
+    }
+
+    .menu_img0{
+        width: 8rem;
+        height: 8rem;
+        margin-bottom: 1.6rem;
+       
+    }
+
+    .menu_grid_text{
+        font-size: 2rem;
+        margin-left: -.5px;
+       
+    }
+
+
 }
