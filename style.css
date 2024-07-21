@@ -1411,7 +1411,7 @@ footer{
 }
 
 /* mobile responsiveness */
-@media screen and (max-width:380px) {
+@media screen and (max-width:420px) {
     *{
         margin: 0;
         padding: 0;
@@ -1419,9 +1419,6 @@ footer{
         overflow-x: hidden;
     }
 
-   body{
-        overflow-x: hidden;
-   }
 
     .nav_links{
         display: none;
