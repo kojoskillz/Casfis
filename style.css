@@ -6,6 +6,9 @@
     /* overflow-x: hidden; */
 }
 
+body{
+	overflow:hidden;
+
 .nav1{
    background-color: rgba(0, 0, 0, 0.96);
    width: 100vw;
