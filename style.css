@@ -1407,6 +1407,10 @@ footer{
         overflow-x: hidden;
     }
 
+   body{
+        overflow-x: hidden;
+   }
+
     .nav_links{
         display: none;
     }
@@ -1442,7 +1446,7 @@ footer{
     }
 
     .text1{
-        font-size: 70px;
+        font-size: 65px;
     }
 
     .hero_image{
@@ -1541,7 +1545,7 @@ footer{
 
     .shift_left{
         margin: auto;
-        margin-left: -17rem;
+        margin-left: -15rem;
     }
 
     .menu_flex{
