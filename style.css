@@ -3,11 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    /* overflow-x: hidden; */
+    overflow-x: hidden; 
 }
 
 body{
-	overflow:hidden;
+	  overflow-x: hidden; 
+}
 
 .nav1{
    background-color: rgba(0, 0, 0, 0.96);
