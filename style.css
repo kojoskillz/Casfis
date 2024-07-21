@@ -3,11 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    overflow-x: hidden; 
-}
-
-body{
-	  overflow-x: hidden; 
+    /* overflow-x: hidden; */
 }
 
 .nav1{
@@ -1197,7 +1193,6 @@ input{
     place-content: center;
     gap: 30px;
     margin-bottom: 10rem;
-    border: 2px solid rgba(180, 180, 180, 0.14);
     margin: 40px;
     padding: 20px;
 
@@ -1398,6 +1393,7 @@ input{
 @media screen and (max-width:768px) {
     .content_blog{
         flex-direction: column;
+        width: 10rem;
     }
 
   
@@ -1420,7 +1416,7 @@ footer{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
 
 
@@ -1522,8 +1518,13 @@ footer{
     }
  
     .img7{
-       margin-top: 2rem;
-       margin-bottom: 2rem;
+       margin-top: -2rem;
+       margin-bottom: -2rem;
+       margin: auto;
+       width: 21rem;
+       display: grid;
+       place-content: center;
+       object-fit: contain;
 }
 
     .container2{
@@ -1613,15 +1614,18 @@ footer{
         display: block;
         object-fit: contain;
         position:absolute;
-        margin-left: -25rem;
-        margin-top: 45rem;
+        margin-left: -15rem;
+        margin-top: 40rem;
+        width: 47rem;
+        height:47rem;
     }
 
 
     .img13{
-        position: absolute;
         margin-top: 20rem;
-        margin-left: -20rem;
+        margin-left: -7rem;
+        height: 70vh;
+        width: 100vw;
     }
 
     .btn1{
@@ -1649,12 +1653,91 @@ footer{
         width: 4.5rem;
         height: 4.5rem;
     }
+    .reservation{
+        padding-bottom: 50rem;
+    }
    
     .reservation_text{
         position: absolute;
        text-align: center;
        font-size: 60px;
        margin-left: -5.5rem;
+    }
+
+
+    .form{
+        position: absolute;
+        margin-top: 45rem;
+        margin-left: -5rem;
+        width: 20rem;
+    }
+
+    .sec7{
+        padding-bottom: 80rem;
+    }
+
+    .sec8{
+
+    }
+
+    .logo_food{
+        border: none;
+        display: grid;
+        place-content: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap:0px;
+        margin-top: -8rem;
+    }
+
+    .logo_foodZ{
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .gallery_h1{
+        margin-top: 18rem;
+        font-size: 100px;
+    }
+
+    .bg-Sec9{
+        padding-bottom: 65rem;
+    }
+
+    .bg-Sec9_img{
+        width: 20rem;
+        height: 28rem;
+    }
+    .testimonials{
+        position: absolute;
+        margin-left: -1rem;
+        margin-top: 1rem;
+        width: 21rem;
+    }
+    
+    .testimonial_text{
+        position: absolute;
+        margin-left: 2rem;
+        margin-top: 40rem;
+        font-size: 30px;
+    }
+
+    .blog{
+        font-size: 10rem;
+    }
+
+    .content_blog{
+        flex-direction: column;
+    }
+
+    .card{
+        width: 20rem;
+    }
+
+    .img_blog{
+        width: 20rem;
+        height: 20rem;
+        object-fit: cover;
     }
 
     
