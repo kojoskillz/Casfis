@@ -1529,9 +1529,19 @@ footer{
    
     }
 
+    .bg-sec4{
+        padding-bottom: 74rem;
+    }
+
     .containerV{
-         margin-left: -10rem;
+         margin-left: -17rem;
+        
          
+    }
+
+    .shift_left{
+        margin: auto;
+        margin-left: -17rem;
     }
 
     .menu_flex{
@@ -1547,10 +1557,23 @@ footer{
     }
 
     .menu_grid_text{
-        font-size: 2rem;
-        margin-left: -.5px;
+        font-size: 1.3rem;
+        margin-left: 9px;
        
     }
 
+    .rating_imgx{
+        margin-left: 7px;
+    }
+
+    .menu_grid_p{
+        margin-left: 7px;
+        font-size: 15px;
+        
+    }
+
+    .price{
+        margin-left: 3px
+    }
 
 }
