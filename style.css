@@ -238,7 +238,8 @@
 }
 
 .btn0{
-    width: 20rem;
+    height: 4.5rem;
+    width: 10rem;
     font-size: 20px;
     padding: 20px;
     background-color: #ffb700;
@@ -258,15 +259,6 @@
     font-family: 'Righteous', cursive;
 }
 
-.btn2{
-    font-size: 20px;
-    padding: 20px;
-    border: solid;
-    border-radius: 9px;
-    background-color: transparent;
-    border-color: #fff;
-    color: #fff;
-}
 
 .btn3{
     font-size: 20px;
@@ -1416,7 +1408,7 @@ footer{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        /* overflow-x: hidden; */
+        overflow-x: hidden;
     }
 
 
@@ -1459,7 +1451,7 @@ footer{
     }
 
     .hero_image{
-        height: 60rem;
+        height: 58rem;
     }
 
     .btn1{
@@ -1599,6 +1591,7 @@ footer{
         display: grid;
         margin-left: -5rem;
     }
+    
 
     .casfis-textX{
         font-size: 3rem;
@@ -1623,7 +1616,7 @@ footer{
 
     .img13{
         margin-top: 20rem;
-        margin-left: -7rem;
+        margin-left: -6rem;
         height: 70vh;
         width: 100vw;
     }
@@ -1668,8 +1661,8 @@ footer{
     .form{
         position: absolute;
         margin-top: 45rem;
-        margin-left: -5rem;
-        width: 20rem;
+        margin-left: -5.3rem;
+        width: 21rem;
     }
 
     .sec7{
@@ -1738,6 +1731,11 @@ footer{
         width: 20rem;
         height: 20rem;
         object-fit: cover;
+    }
+
+    .arrow{
+        margin-top: 10rem;
+        margin-right: 40rem;
     }
 
     
