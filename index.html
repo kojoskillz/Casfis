@@ -15,9 +15,16 @@
      <!-- nav1 -->
    <nav class="nav1">
             <div class="nav1_texts">
-                <h3><img src="./images/clock.png" alt="clock" class="clock"> Mon-Fri:8:00am-6:00pm</h3>
-                <h3><img src="./images/email.png" alt="clock" class="email">Email:Casfis112@gmail.com</h3>
-                <h3><img src="./images/location.png" alt="clock" class="location">Accra,Ghana</h3>    
+
+                <div class="clock_flex">
+                    <img src="./images/clock.png" alt="clock" class="clock">
+                    <h3 class="clock_h1"> Mon-Fri:8:00am-6:00pm</h3>
+                </div>
+                
+                <div class="clock_flex">
+                    <img src="./images/location.png" alt="clock" class="location">
+                    <h3 class="loc_h1">Accra,Ghana</h3> 
+                </div>
             </div>
     </nav>
 
@@ -26,11 +33,11 @@
         <img src="./images/casfis-logo.png" alt="" class="casfis-logo">
 
         <ul class="nav_links">
-            <li><a href="#Home"></a>Home</li>
-            <li><a href="#Services"></a>Services</li>
-            <li><a href="#Gallery"></a>Gallery</li>
-            <li><a href="#Menu"></a>Menu</li>
-            <li><a href="#Contact"></a>Contact</li>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Gallery">Gallery</a></li>
+            <li><a href="#Menu">Menu</a></li>
+            <li><a href="#Contact">Contact</a></li>
         </ul>
 
 
@@ -41,7 +48,7 @@
     <!-- main_page containing images of restaurant -->
 
 <!-- section1- images and text of restaurant  -->
-   <div class="hero_image"> 
+   <div class="hero_image" id="Home"> 
         <!-- hero_image -->
              <div class="content" data-aos="fade-up" data-aos-duration="4000"  data-aos-easing="linear"   data-aos-anchor-placement="top-bottom" data-aos-delay="300" >
                 <div><img src="./images/cooking.png" alt="" class="cooking"></div>
@@ -65,7 +72,7 @@
  
 
     <!-- section2 -->
-     <div class="a_flex">
+     <div class="a_flex" id="About">
      
         <div class="casfis_gray">
             <marquee behavior="" direction="left">
@@ -101,7 +108,7 @@
                  <!-- about.p_texts ends -->
 
                    <div class="btn" data-aos="zoom-in" data-aos-duration="2000"  data-aos-easing="linear"   data-aos-anchor-placement="top-bottom" data-aos-delay="200">
-                      <button class="btn3" type="submit">Book Reservation</button>
+                     <a href="#Reservation"><button class="btn3" type="submit">Book Reservation</button></a> 
                    </div>
         </div>
         
@@ -126,7 +133,7 @@
 
         
            <!-- container1 -->
-           <div class="container1"  data-aos="zoom-in" data-aos-duration="2000"  data-aos-easing="linear"   data-aos-anchor-placement="top-bottom" data-aos-delay="300">
+           <div class="container1"  data-aos="fade-up" data-aos-duration="2000"  data-aos-easing="linear"   data-aos-anchor-placement="top-bottom" data-aos-delay="300">
                  <h1 class="sec3_text">
                     Find Us...
                  </h1>
@@ -148,12 +155,12 @@
            </div>
  
            <!-- container2 -->
-           <div  data-aos="zoom-in" data-aos-duration="2000"  data-aos-easing="linear"   data-aos-anchor-placement="top-bottom" data-aos-delay="300">
+           <div  data-aos="fade-up" data-aos-duration="2000"  data-aos-easing="linear"   data-aos-anchor-placement="top-bottom" data-aos-delay="300">
                  <img src="./images/img7.jpg" alt="" class="img7">
            </div>
 
            <!-- container3 -->
-           <div class="container2"  data-aos="zoom-in" data-aos-duration="2000"  data-aos-easing="linear"   data-aos-anchor-placement="top-bottom" data-aos-delay="300">
+           <div class="container2"  data-aos="fade-up" data-aos-duration="2000"  data-aos-easing="linear"   data-aos-anchor-placement="top-bottom" data-aos-delay="300">
                  <h1 class="sec3_text">
                     Contact Us Now
                  </h1>
@@ -177,7 +184,7 @@
 </div>
 
 <!-- section4 -->
-<div class="bg-sec4">
+<div class="bg-sec4" id="Menu">
 
         <h1 class="menu_text1"  data-aos="fade" data-aos-duration="2000" data-aos-easing="ease-in">
             Our Menu
@@ -575,7 +582,7 @@
     </div>
     
         <!-- booking apppointment -->
-       <form class="form">
+       <form class="form" id="Reservation">
     
     <div class="flex">
         <label>
@@ -617,7 +624,7 @@
 
 
 <!-- section7 -->
-  <div class="sec7">
+  <div class="sec7" id="Gallery">
       <div>
         <h1 class="gallery_h1">
             View Our Gallery
@@ -643,7 +650,7 @@
         <h1 class="index">01</h1>
     </div>
 
-    <div class="gallery">
+    <div class="gallery" id="#Gallery">
         <div class="gallery-image">
             <img src="./images/img15.jpg" alt="" class="image">
         </div>
@@ -678,7 +685,7 @@
         <img src="./images/burgerking.png" alt="" class="logo_foodZ">
         <img src="./images/pizzahunt.png" alt="" class="logo_foodZ">
         <img src="./images/dennys.png" alt="" class="logo_foodZ">
-        <img src="./images/dennys.png" alt="" class="logo_foodZ">
+        <img src="./images/PAPAYE.png" alt="" class="logo_foodZ">
         
  </div>
 </div>
@@ -772,14 +779,66 @@
     </div>
   
 
+<!-- footer_section -->
+<footer id="Contact">
+
+     <div>
+        <img src="./images/casfis-logo.png" alt="" class="footer_img">
+     </div>
+    <div class="footer_flex">
+        <div class="footer_grid">
+            <h1 class="yellow_h1">Cafis Restaurant</h1>
+            <div class="loc_flex">
+                <img src="./images/location.png" alt="" class="loc_img">
+                <p class="footer_p">Pokuase,Accra-Ghana</p>
+            </div>
+            
+           
+       </div>
+       <div class="contact_grid">
+            <h1 class="yellow_h1">Contact Info</h1>
+            <div class="call_flex">
+                <img src="./images/call.png" alt="" class="call_img">
+                <p class="footer_p">+233 54 183 3813</p>
+            </div>
+
+            <div class="call_flex">
+                <img src="./images/call.png" alt="" class="call_img">
+                <p class="footer_p">+233 55 677 4832</p>
+            </div>
+
+            <div class="call_flex">
+                <img src="./images/email.png" alt="" class="call_imgX">
+                <p class="footer_p">khojoben07@gmail.com</p>
+            </div>
+            
 
 
+       </div>
+       <div class="opening_grid">
+          <h1 class="yellow_h1">Opening hours</h1>
+          <div class="clock_flex">
+            <img src="./images/clock.png" alt="" class="clock_foot">
+            <p class="footer_p">Saturday from 8am to 9pm</p>
+          </div>
+          
+          <div class="clock_flex">
+            <img src="./images/clock.png" alt="" class="clock_foot">
+            <p class="footer_p">Mon-Fri from 8am to 9pm</p>
+          </div>
+          
+          
+       </div>
+       <div class="Socials_grid">
+          <h1 class="yellow_h1">Visit us on</h1>
+            <div class="social_foot">
+                <img src="./images/social2.png" alt="" class="social">
+                <img src="./images/social3.png" alt="" class="social">
+            </div>
+       </div>
 
-
-
-
-<footer >
-   
+    </div>
+         
 </footer> 
 
 
