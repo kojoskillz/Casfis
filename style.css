@@ -6,6 +6,11 @@
     /* overflow-x: hidden; */
 }
 
+html,body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
 .nav1{
    background-color: rgba(0, 0, 0, 0.96);
    width: 100vw;
@@ -21,7 +26,7 @@
    display: flex;
 }
 
-.nav_links,li{
+.nav_links,li,a{
     color: #fff;
     display: flex;
     text-align: center;
@@ -33,6 +38,18 @@
     font-family: 'Righteous', cursive;
     font-size: 20px;
 
+}
+
+.nav_links,li,a:hover{
+    color: #d79c07;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.nav_links,li:active{
+    color: #ffe37e;
+    cursor: pointer;
+    transition: 1s;
 }
 
 
@@ -48,7 +65,7 @@
     gap: 3rem;
     margin-left: 12px;
     padding-top: 7px;
-    color: rgba(255, 255, 255, 0.401);
+    color: rgba(241, 241, 241, 0.97);
     font-weight:10px;
     font-family: 'Times New Roman', Times, serif;
     font-size:15px;
@@ -58,16 +75,19 @@
 
 .clock{
     width: 1rem;
+    height: 1.4rem;
     margin-right: 10px;
 }
 
-.email{
+/* .email{
     width: 1rem;
+    height: 0.5rem;
     margin-right: 10px;
-}
+} */
 
 .location{
     width: 1rem;
+    height: 1.4rem;
     margin-right: 10px;
 }
 
@@ -249,6 +269,17 @@
     font-family: 'Righteous', cursive;
 }
 
+.btn0:hover{
+    background-color: #d79c07;
+    cursor: pointer;
+}
+
+.btn0:active{
+    background-color: #ffb700;
+    cursor: pointer;
+}
+
+
 .btn1{
     font-size: 20px;
     padding: 20px;
@@ -259,6 +290,15 @@
     font-family: 'Righteous', cursive;
 }
 
+.btn1:hover{
+    background-color: #d79c07;
+    cursor: pointer;
+}
+
+.btn1:active{
+    background-color: #ffb700;
+    cursor: pointer;
+}
 
 .btn3{
     font-size: 20px;
@@ -270,12 +310,12 @@
 }
 
 .btn3:hover{
-    background-color: #ffb700;
+    background-color: #d79c07;
     cursor: pointer;
 }
 
 .btn3:active{
-    background-color: #ffb700c0;
+    background-color: #ffb700;
     cursor: pointer;
 }
 
@@ -394,7 +434,6 @@
     margin-top: 6rem;
    
 }
-
 
 .sec3_text{
     font-family: 'Righteous', cursive;
@@ -1021,6 +1060,7 @@ input{
     text-align: center;
     color: #c8c8c827;
 }
+
 .gallery_h2{
     font-family: 'Righteous', cursive;
     font-size: 100px;
@@ -1107,6 +1147,10 @@ input{
     text-align: center;
     line-height: 50px;
     font-weight: 300;
+}
+
+.image{
+    object-fit: cover;
 }
 
 .image-name{
@@ -1236,9 +1280,11 @@ input{
 	max-width: 1170px;
 	margin: auto;
 }
+
 .testimonials .title{
 	margin-bottom:60px
 }
+
 .testimonials .title h1{
 	text-align: center;
 	color:#ffffff;
@@ -1346,8 +1392,7 @@ input{
     text-align: left;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 20px;
-  
-    
+
 }
 
 
@@ -1388,7 +1433,7 @@ input{
         width: 10rem;
     }
 
-  
+
 }
 
 
@@ -1399,18 +1444,107 @@ footer{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 10rem;
+    color:#fff;
+    display: flex;
+    font-family: sans-serif;
+ 
+   
 }
 
+.footer_flex{
+    display: flex;
+    gap: 5rem;
+    margin: auto;
+    margin-left: 4rem;
+}
+
+.footer_img{
+    width: 18rem;
+    height: 15rem;
+    margin-left: 6rem;
+}
+
+.footer_p{
+    margin-top: 10px;
+}
+
+.location_img{
+    width: 2rem;
+    height: 2rem;
+  
+}
+
+.call_img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 10px;
+    place-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.call_imgX{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 10px;
+    margin-top: 6px;
+    place-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.loc_img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 10px;
+    margin: 5px;
+}
+
+.loc_flex{
+    display: flex;
+}
+
+.call_flex{
+    display: flex;   
+}
+
+.clock_flex{
+    display:flex;
+}
+
+.clock_foot{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 10px;
+    margin: 5px;
+}
+
+.social{
+    width: 2rem;
+    height: 2rem;
+}
+
+.social_foot{
+    margin-top: 5px;
+}
+
+.yellow_h1{
+    color:#ffb700;
+    font-family: 'Righteous', cursive;
+}
+
+
 /* mobile responsiveness */
-@media screen and (max-width:420px) {
+@media screen and (max-width:480px) {
     *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        overflow-x: hidden;
     }
-
+  
+    html,body{
+         overflow-x: hidden;
+    }
 
     .nav_links{
         display: none;
@@ -1470,7 +1604,7 @@ footer{
 
     .a_flex{
         padding-bottom: 37rem;
-}
+    }
     
     .about_txt{
         font-size: 7rem;
@@ -1517,12 +1651,11 @@ footer{
        display: grid;
        place-content: center;
        object-fit: contain;
-}
+   }
 
     .container2{
         object-fit: contain;
-        margin: auto;
-       
+        margin: auto;  
     }
  
     .tex5{
@@ -1608,7 +1741,7 @@ footer{
         object-fit: contain;
         position:absolute;
         margin-left: -15rem;
-        margin-top: 40rem;
+        margin-top: 43rem;
         width: 47rem;
         height:47rem;
     }
@@ -1647,11 +1780,11 @@ footer{
         height: 4.5rem;
     }
     .reservation{
-        padding-bottom: 50rem;
+        padding-bottom: 70rem;
     }
    
     .reservation_text{
-        position: absolute;
+       position: absolute;
        text-align: center;
        font-size: 60px;
        margin-left: -5.5rem;
@@ -1666,11 +1799,7 @@ footer{
     }
 
     .sec7{
-        padding-bottom: 80rem;
-    }
-
-    .sec8{
-
+        padding-bottom: 75rem;
     }
 
     .logo_food{
@@ -1680,7 +1809,9 @@ footer{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
         grid-column-gap:0px;
-        margin-top: -8rem;
+        margin-top: 3rem;
+        justify-content: center;
+        align-items: center;
     }
 
     .logo_foodZ{
@@ -1689,8 +1820,7 @@ footer{
     }
 
     .gallery_h1{
-        margin-top: 18rem;
-        font-size: 100px;
+         display: none;
     }
 
     .bg-Sec9{
@@ -1738,5 +1868,41 @@ footer{
         margin-right: 40rem;
     }
 
+   footer{
+    display: grid;
+    place-content: center;
+    }
+
+    .footer_img{
+        margin-left: -3rem;
+    }
+    
+    .footer_flex{
+        display: grid;
+        place-content: center;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr;
+        grid-column-gap:0px;
+        margin-top: 3rem;
+        margin-left: 2rem;
+    }
+
+    .yellow_h1{
+        font-size:2rem;
+    }
+
+    .clock_flex{
+         display: flex;
+    }
+    
+    .email, .clock, .location{
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .clock_h1,.loc_h1{
+        font-size: 13px;
+        color: rgb(246, 246, 246);
+    }
     
 }
