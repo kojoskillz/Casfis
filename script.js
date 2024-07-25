@@ -47,7 +47,6 @@ function openBreakfast() {
 }
 
 
-
 // modal
 const images = [...document.querySelectorAll('.image')];
 
@@ -96,8 +95,6 @@ rightArrow.addEventListener('click', () => {
 
 
 // testimonial
-
-
 const slides=document.querySelector(".slider").children;
 const indicatorImages=document.querySelector(".slider-indicator").children;
 
@@ -117,3 +114,7 @@ const indicatorImages=document.querySelector(".slider-indicator").children;
 
    })
  }
+
+
+
+//  hamburger_menu
