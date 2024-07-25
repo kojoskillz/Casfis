@@ -1377,7 +1377,7 @@ input{
 
 .blog_text{
     font-size: 30px;
-    color: #fff;
+    color: #ffb908;
     text-align: left;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 20px;
@@ -1390,9 +1390,18 @@ input{
     font-weight: lighter;
     color: #fffdfdcd;
     text-align: left;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-left: 20px;
 
+}
+
+
+
+.blog_text_date{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 1.4rem;
+    color: #d79c07d8;
 }
 
 
@@ -1550,6 +1559,8 @@ footer{
         display: none;
     }
 
+    
+
     .casfis-logo{
         width: 6rem;
         height: 6rem;
@@ -1670,6 +1681,10 @@ footer{
         margin-top: -10rem;
         font-size: 7rem;
    
+    }
+
+    .sec7{
+        margin-bottom: 15rem;
     }
 
     .bg-sec4{
