@@ -17,35 +17,6 @@ function scrollToTop(){
 }
 
 
-// content
-const content1 = document.getElementById("content1");
-const content2 = document.getElementById("content2");
-const content3 = document.getElementById("content3");
-const btna = document.getElementById("btna");
-const btnb = document.getElementById("btnb");
-const btnc = document.getElementById("btnc");
-
-function openPopularFood() {
-  content1.style.transform = "translateX(0)";
-  content2.style.transform = "translateX(100%)";
-  content3.style.transform = "translateX(100%)";
-
-}
-
-function openDrinks() {
-  content1.style.transform = "translateX(100%)";
-  content2.style.transform = "translateX(0)";
-  content3.style.transform = "translateX(100%)";
-  
-
-}
-function openBreakfast() {
-  content1.style.transform = "translateX(100%)";
-  content2.style.transform = "translateX(100%)";
-  content3.style.transform = "translateX(0)";
-
-}
-
 
 // modal
 const images = [...document.querySelectorAll('.image')];
@@ -118,3 +89,20 @@ const indicatorImages=document.querySelector(".slider-indicator").children;
 
 
 
+//  changingtabs
+const tabs = document.querySelectorAll('[data-tab-target]')
+const tabContents = document.querySelectorAll('[data-tab-content]')
+
+tabs.forEach(tab => {
+  tab.addEventListener('click', () => {
+    const target = document.querySelector(tab.dataset.tabTarget)
+    tabContents.forEach(tabContent => {
+      tabContent.classList.remove('active')
+    })
+    tabs.forEach(tab => {
+      tab.classList.remove('active')
+    })
+    tab.classList.add('active')
+    target.classList.add('active')
+  })
+})
