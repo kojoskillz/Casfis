@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    /* overflow-x: hidden; */
 }
 
 html,body{
@@ -518,12 +517,12 @@ html,body{
     position: absolute;
     justify-content: center;
     align-items: center;
-    transform:translateX(100%);
-    column-gap: 20px;
+    column-gap: 10px;
     row-gap: 50px;
-    grid-template-columns: repeat(2, 45rem);
-    margin-left: 12rem;
-    overflow-x:hidden ;
+    margin-left: 20rem;
+    margin-top: 5rem;
+    grid-template-columns: repeat(2, 35rem);
+    overflow-x:hidden;
 }
 
 #content1{
@@ -731,7 +730,7 @@ html,body{
     object-fit: contain;
     position: absolute;
     width: 60rem;
-    height: 45rem;
+    height: 55rem;
     float: right;
     justify-items: end;
     margin-left: 45rem;
@@ -1435,6 +1434,49 @@ input{
 }
 
 
+/* changingtabs */
+[data-tab-content] {
+    display: none;
+  }
+  
+  .active[data-tab-content] {
+    display: grid;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid rgb(255, 255, 255);
+  }
+  .p_tab{
+     color: red;
+  }
+
+  .tab {
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .tab.active {
+    background-color: #ffffff;
+  }
+  
+  .tab:hover {
+    background-color: #ffffff;
+  }
+  
+  .tab-content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .p-tab{
+    color:white
+  }
+
 
 @media screen and (max-width:768px) {
     .content_blog{
@@ -1544,7 +1586,7 @@ footer{
 
 
 /* mobile responsiveness */
-@media screen and (max-width:480px) {
+@media screen and (max-width:720px) {
     *{
         margin: 0;
         padding: 0;
@@ -1552,7 +1594,7 @@ footer{
     }
   
     html,body{
-         overflow-x: hidden;
+         /* overflow-x: hidden; */
     }
 
     .nav_links{
@@ -1577,6 +1619,25 @@ footer{
         font-size: 8px;
     }
 
+    .cooking{
+        float: right;
+        margin-top: 6rem;
+        margin-right: -20rem;
+        padding-left: 60rem;
+        position: absolute;
+        width: 74rem;
+        height: 13rem;
+    }
+
+    .arrow {
+        position: absolute;
+        top: -150rem;
+        left: 30%;
+        transform: translateY(-50%);
+        width: 8rem;
+        height: 10rem;
+      }
+
     .clock{
         width: 10px;
     }
@@ -1595,6 +1656,7 @@ footer{
 
     .text1{
         font-size: 65px;
+        flex-wrap: wrap;
     }
 
     .hero_image{
@@ -1638,6 +1700,7 @@ footer{
     .imgy{
         height: 20rem;
         width: 18rem;
+        flex-wrap: wrap;
     }
  
     .imgx{
@@ -1694,7 +1757,17 @@ footer{
     }
 
     .containerV{
-         margin-left: -17rem;
+        place-content: center;
+        display: grid;
+        margin: auto;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        column-gap: 70px;
+        row-gap: 50px;
+        margin-left: -12rem;
+        margin-top: 5rem;
+        overflow-x:hidden;
         
          
     }
@@ -1757,10 +1830,10 @@ footer{
         display: block;
         object-fit: contain;
         position:absolute;
-        margin-left: -15rem;
+        margin-left: -3rem;
         margin-top: 43rem;
-        width: 47rem;
-        height:47rem;
+        width: 30rem;
+        height:40rem;
     }
 
 
