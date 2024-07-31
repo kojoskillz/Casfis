@@ -6,7 +6,7 @@
 }
 
 html,body{
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     scroll-behavior: smooth;
 }
 
@@ -1763,7 +1763,7 @@ footer{
 
     .main_container{
         display: grid;
-        margin-bottom: -15rem;
+        margin-bottom: -5rem;
     }
 
     .container1{
@@ -1771,13 +1771,20 @@ footer{
     }
  
     .img7{
-       margin-top: -2rem;
        margin-bottom: -2rem;
        margin: auto;
        width: 21rem;
        display: grid;
        place-content: center;
        object-fit: contain;
+   }
+
+     .img7_X{
+     margin-top: -10rem;
+}
+
+   .img7_up{
+    margin-top: -18rem;
    }
 
     .container2{
@@ -1804,8 +1811,9 @@ footer{
     }
 
     .bg-sec4{
-        padding-bottom: 74rem;
+        padding-bottom: 215rem;
     }
+
 
     .containerV{
         place-content: center;
@@ -1814,52 +1822,32 @@ footer{
         position: absolute;
         justify-content: center;
         align-items: center;
-        column-gap: 70px;
+        column-gap: 30px;
         row-gap: 50px;
-        margin-left: -12rem;
         margin-top: 5rem;
+        grid-template-columns: repeat(1, 30rem);
         overflow-x:hidden;
-        
-         
     }
+    
 
-    .shift_left{
+
+    .menu_img0{
+        width: 19.8rem;
+        height: 15rem;
+        object-fit: cover;
         margin: auto;
-        margin-left: -15rem;
     }
 
     .menu_flex{
-        flex-direction: column;
-        
-    }
-
-    .menu_img0{
-        width: 8rem;
-        height: 8rem;
-        margin-bottom: 1.6rem;
-       
-    }
-
-    .menu_grid_text{
-        font-size: 1.3rem;
-        margin-left: 9px;
-       
-    }
-
-    .rating_imgx{
-        margin-left: 7px;
-    }
-
-    .menu_grid_p{
-        margin-left: 7px;
-        font-size: 15px;
-        
-    }
-
-    .price{
-        margin-left: 3px
-    }
+      
+        width: 19.8rem;
+        display: grid;
+        place-content: left;
+        border: 0.5px rgba(243, 180, 32, 0.278);
+        border-style: solid;
+        padding-bottom: 2rem;
     
+    }
 
     .casfis_flex{
         display: grid;
@@ -1881,9 +1869,9 @@ footer{
         display: block;
         object-fit: contain;
         position:absolute;
-        margin-left: -3rem;
+        margin:auto;
         margin-top: 43rem;
-        width: 30rem;
+        width: 24rem;
         height:40rem;
     }
 
