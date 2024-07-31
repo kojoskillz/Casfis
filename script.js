@@ -85,7 +85,7 @@ const indicatorImages=document.querySelector(".slider-indicator").children;
 
    })
  }
-
+// testimonial ends
 
 
 
@@ -106,3 +106,4 @@ tabs.forEach(tab => {
     target.classList.add('active')
   })
 })
+//  changingtabs ends
