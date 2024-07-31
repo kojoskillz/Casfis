@@ -1975,7 +1975,8 @@ footer{
     }
 
     .blog{
-        font-size: 10rem;
+        padding-top: 15rem;
+        font-size: 5rem;
     }
 
     .content_blog{
