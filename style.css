@@ -1408,7 +1408,6 @@ input{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 20px;
    
-   
 }
 
 .blog_text_p{
@@ -2175,4 +2174,123 @@ footer{
     #menu{
         display: block;
     }
+}
+
+/* media queries for mobiledevices menu */
+@media screen and (max-width:320px) {
+    #menu{
+        display: block;
+    }
+
+    .menu_flex{
+        width: 18rem;
+    } 
+
+    .menu_img0{
+        width: 17.8rem;
+    }
+
+    .about_txt{
+        font-size: 5rem;
+    }
+
+    .about_p{
+        font-size: 1.4rem;
+    }
+
+    .nav1{
+       height: 2.7rem;
+    }
+
+    #menu{
+        height: 3rem;
+        width: 19rem;
+    }
+  
+
+    .imgy{
+        height: 18rem;
+        width: 16rem;
+        flex-wrap: wrap;
+    }
+ 
+    .imgx{
+        z-index: -10;
+        margin-top: 5rem;
+        height: 18rem;
+        width: 15rem;
+    }
+
+    .img7{
+        width: 19rem;
+    }
+  
+    .popular_food{
+        width: 6rem;
+        font-size: .96rem;
+    }
+
+    .logoz{
+        height: 1rem;
+        width: 1rem;
+        object-fit: contain;
+        margin: auto;
+    }
+    
+    .containerU{
+        width: 18rem;
+    }
+
+    .circle{
+       
+        height:17rem;
+        width: 17rem;
+        margin-left: .5rem;
+    }
+
+    .circle1{
+        height:17rem;
+        width: 17rem;
+        margin-left: -4.5rem;
+    }
+
+    .img14{
+        width: 20rem;
+    }
+
+    .form{
+        margin-top: 38rem;
+        width: 18.5rem;
+    }
+
+    .testimonials{
+        width: 20rem;
+        margin-left: -4rem;
+    }
+
+    .testimonial_text{
+        font-size: 1.5rem;
+    }
+
+    .containerQ{
+        max-width: 1190px;
+        margin: auto;
+        margin-left: 2rem;
+    }
+    .face{
+        width: 4rem;
+        height: 4rem;
+    }
+ 
+     .blog{
+        font-size:4rem ;
+     }
+
+     .card{
+         width: 18rem;
+     }
+     .img_blog{
+         width: 18rem;
+     }
+
 }
