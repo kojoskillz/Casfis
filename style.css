@@ -504,25 +504,23 @@ html,body{
 .bg-sec4{
     background-color: black; 
     padding-top: 7rem;
-    padding-bottom: 100rem;
+    padding-bottom: 10rem;
     overflow-x: hidden;
 }
 
 
 
 .containerV{
+    flex-wrap: wrap;
     place-content: center;
     display: grid;
-    margin: auto;
-    position: absolute;
     justify-content: center;
     align-items: center;
+    margin: auto;
     column-gap: 30px;
     row-gap: 50px;
-    margin-left: 5rem;
     margin-top: 5rem;
     grid-template-columns: repeat(3, 30rem);
-    overflow-x:hidden;
 }
 
 #content1{
@@ -1641,10 +1639,11 @@ footer{
         box-sizing: border-box;
     }
   
-    html,body{
-         /* overflow-x: hidden; */
-    }
-
+    
+    body,html{
+        overflow-x: hidden;
+  }
+  
     .nav_links{
         display: none;
     }
@@ -1732,7 +1731,7 @@ footer{
     }
     
     .about_txt{
-        font-size: 7rem;
+        font-size: 5rem;
     }
 
     .about_p{
@@ -1811,14 +1810,16 @@ footer{
 
     .bg-sec4{
         padding-bottom: 215rem;
+        
     }
 
 
     .containerV{
         place-content: center;
         display: grid;
-        margin: auto;
-        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
         justify-content: center;
         align-items: center;
         column-gap: 30px;
@@ -2159,6 +2160,10 @@ footer{
 	#menu input:checked + label:before {content:"\00d7"}
 	#menu input:checked ~ ul {display:block}
 
+    body,html{
+        overflow-x: hidden;
+  }
+  
 
 }
 
@@ -2167,6 +2172,11 @@ footer{
     #menu{
         display: none;
     }
+
+    body,html{
+        overflow-x: hidden;
+  }
+  
 }
 
 /* media queries for mobiledevices menu */
@@ -2174,10 +2184,20 @@ footer{
     #menu{
         display: block;
     }
+
+    
+    body,html{
+        overflow-x: hidden;
+  }
+  
 }
 
 /* media queries for mobiledevices menu */
 @media screen and (max-width:320px) {
+    body,html{
+          overflow-x: hidden;
+    }
+    
     #menu{
         display: block;
     }
@@ -2292,5 +2312,5 @@ footer{
      .img_blog{
          width: 18rem;
      }
-
+  
 }
