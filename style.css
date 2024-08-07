@@ -6,7 +6,7 @@
 }
 
 html,body{
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
@@ -1809,7 +1809,7 @@ footer{
     }
 
     .bg-sec4{
-        padding-bottom: 215rem;
+        padding-bottom: 10rem;
         
     }
 
@@ -1827,6 +1827,7 @@ footer{
         margin-top: 5rem;
         grid-template-columns: repeat(1, 30rem);
         overflow-x:hidden;
+        margin-left: 1.5rem;
     }
     
 
@@ -1910,6 +1911,7 @@ footer{
     }
     .reservation{
         padding-bottom: 70rem;
+        margin-left: 1rem;
     }
    
     .reservation_text{
