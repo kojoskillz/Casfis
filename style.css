@@ -1792,6 +1792,8 @@ footer{
  
     .tex5{
        padding-bottom: 10rem;
+       font-size: 2rem;
+       text-wrap: wrap;
     }
 
     .menu_text1{
