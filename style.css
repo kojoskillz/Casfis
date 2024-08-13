@@ -2500,14 +2500,14 @@ body,html{
 
 .img13{
     width: 35rem;
-    height: 35rem;
+    height: 34rem;
     object-fit: contain;
-    margin-left: -2rem;
+    margin-left: -9rem;
     margin-top: 16rem;
 }
 
 .form{
-    margin-left: 27rem;
+    margin-left: 20rem;
     width: 25.5rem;
 }
 
@@ -2533,7 +2533,7 @@ body,html{
 
 
 .sec7{
-    padding-bottom: 25rem;
+    padding-bottom: 5rem;
 }
 
 
@@ -2569,7 +2569,8 @@ body,html{
 }
 
 .arrow{
-    margin-top: 44.5px;
+    margin-top: -70.5px;
+    margin-left: -400px;
 }
 
 /* .img_blog{
@@ -2675,6 +2676,10 @@ body,html{
     color:#ffb700;
     font-family: 'Righteous', cursive;
     font-size: 18px;
+}
+
+.hero_image{
+    padding-bottom: 50rem;
 }
 
 
